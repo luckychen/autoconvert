@@ -6,7 +6,7 @@ Please got the end of this file for instructions on convert GTC to VCF file
 =====
 This is a slightly modified version of Illumina AutoConvert.exe which convert .idat to .gtc file, the purpose of this project is running AutoConvert with mono at linux platform. 
 
-This method is based on project <a href="https://support.illumina.com/downloads.html">GTC2VCF</a>
+This method is based on project <a href="https://github.com/freeseek/gtc2vcf">Harverd GTC2VCF</a>
 Please be awared that AutoConvert is developed by Illumina, and Illumina DO NOT recommend to run AutoConvert like this.
 
 pre request:
@@ -31,7 +31,7 @@ The GTC file will be generated at the same folder
 Convert the GTC file to VCF file
 ======
 
-This part is according to <a href="">GTCtoVCF project</a>  
+This part is according to <a href="https://github.com/Illumina/GTCtoVCF">GTC to VFC project</a>  
 
 Firstly do:
 
