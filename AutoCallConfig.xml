@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoCallConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <GenCallCutoffGGGT>0.25</GenCallCutoffGGGT>
+   <GenCallCutoffWGGT>0.15</GenCallCutoffWGGT>
+   <User>poller_user</User>
+   <Password>poller_user</Password>
+   <EraseGTCOnFailureToConnect>false</EraseGTCOnFailureToConnect>
+   <UseClusterFile>Optional</UseClusterFile>
+   <IncludeSampleStats>true</IncludeSampleStats>
+   <FullQueueDelay>5000</FullQueueDelay>
+   <TimeOutWaitResponseMax>300000</TimeOutWaitResponseMax>
+   <Port>80</Port>
+   <NumberOfThreads>4</NumberOfThreads>
+   <Server>ilmnlims</Server>
+   <EmptyQueueDelay>5000</EmptyQueueDelay>
+   <TimeOutWaitResponse>300000</TimeOutWaitResponse>
+   <AppendToWebAddress>clientConnection</AppendToWebAddress>
+   <OverwriteGTCFile>true</OverwriteGTCFile>
+   <MaxFiles>10</MaxFiles>
+   <MaxFileSize>1048576</MaxFileSize>
+   <!-- GenTrain algorithm version, may be "GenTrain 1.0", "GenTrain 2.0", or "GenTrain 3.0" -->
+   <ClusteringAlgorithmName>GenTrain 3.0</ClusteringAlgorithmName>
+   <GenderEstimation>
+    <!-- Requested algorithm version -->
+    <Version>2</Version> 
+
+    <!-- Shared parameters -->
+    <!-- Minimum number of X loci required for gender estimation -->
+    <MinX_Loci>20</MinX_Loci>
+
+    <!-- Version 1 parameters -->
+    <!-- X heterozygous call rate threhsold (below threshold will call sample male) -->
+     <X_HetRateThreshold>0.1</X_HetRateThreshold>
+
+    <!-- Version 2 parameters -->
+    <!-- Minimum number of autosomal loci required to estimate autosomal call rate (otherwise, will default to version 1) -->
+     <MinAutosomalLoci>100</MinAutosomalLoci>
+    <!-- Maximum number of autosomal loci required to estimate autosomal call rate (otherwise, will downsample) -->
+     <MaxAutosomalLoci>10000</MaxAutosomalLoci>
+    <!-- Minimum number of Y loci required for gender estimation (otherwise, will default to version 1) -->
+     <MinY_Loci>20</MinY_Loci>
+    <!-- Minimum autosomal call rate to perform gender estimation (otherwise, will call gender undetermined) -->
+     <AutosomalCallRateThreshold>0.97</AutosomalCallRateThreshold>
+    <!-- Minimum X intensity threshold (below threshold will call sample undetermined or male)  -->
+     <X_IntensityThreshold>0.9</X_IntensityThreshold> 
+    <!-- Minimum Y intensity threshold (above threshold will call sample male)  -->
+     <Y_IntensityThreshold>0.3</Y_IntensityThreshold>
+  </GenderEstimation>
+</AutoCallConfig>

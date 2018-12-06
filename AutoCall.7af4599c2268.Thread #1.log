@@ -1,0 +1,39 @@
+07:30:26 0005 
+07:30:26 0018 =========================================================
+07:30:26 0018         Starting AutoCall.7af4599c2268.Thread #1
+07:30:26 0019         12/5/2018 7:30:26 PM
+07:30:26 0019         AutoCall 2.0.1.179
+07:30:26 0019 =========================================================
+07:30:26 0019 
+12/5/2018 7:30:26 PM	!!!!!  EXCEPTION; type=System.Net.WebException
+12/5/2018 7:30:26 PM	!!!!!  Error generated from LIMS command "<linx action="save" clientType="AutoCall Poller" clientVersion="2.0.1.179" device="7af4599c2268" host="ilmnlims" password="poller_user" port="80" task="AutoCall" user="poller_user" workFlow="GGGT"/>"
+12/5/2018 7:30:26 PM	!!!!!  Error: NameResolutionFailure
+12/5/2018 7:30:26 PM	!!!!!    at Illumina.PollerUtils.HTTPCommunication.SendCommand (System.String command, System.String& response, System.Boolean& sendPortionCompleted, System.Int32& status) <0x40f914b0 + 0x0076f> in <filename unknown>:0 
+12/5/2018 7:30:26 PM	!!!!!    at Illumina.PollerUtils.PollerThread.PollThenProcess (System.Object cookie, System.Boolean& processedAJob, System.Boolean& bContinuePolling) <0x40fad920 + 0x003d3> in <filename unknown>:0 
+12/5/2018 7:30:26 PM	!!!!!    at System.Net.HttpWebRequest.EndGetRequestStream (IAsyncResult asyncResult) <0x40fcbf60 + 0x0013f> in <filename unknown>:0 
+12/5/2018 7:30:26 PM	!!!!!    at System.Net.HttpWebRequest.GetRequestStream () <0x40fc3c90 + 0x000f4> in <filename unknown>:0 
+12/5/2018 7:30:26 PM	!!!!!    at Illumina.PollerUtils.HTTPCommunication.SendCommand (System.String command, System.String& response, System.Boolean& sendPortionCompleted, System.Int32& status) <0x40f914b0 + 0x002e3> in <filename unknown>:0 
+12/5/2018 7:30:31 PM	!!!!!  EXCEPTION; type=System.Net.WebException
+12/5/2018 7:30:31 PM	!!!!!  Error generated from LIMS command "<linx action="save" clientType="AutoCall Poller" clientVersion="2.0.1.179" device="7af4599c2268" host="ilmnlims" password="poller_user" port="80" task="AutoCall" user="poller_user" workFlow="GGGT"/>"
+12/5/2018 7:30:31 PM	!!!!!  Error: NameResolutionFailure
+12/5/2018 7:30:31 PM	!!!!!    at Illumina.PollerUtils.HTTPCommunication.SendCommand (System.String command, System.String& response, System.Boolean& sendPortionCompleted, System.Int32& status) <0x40f914b0 + 0x0076f> in <filename unknown>:0 
+12/5/2018 7:30:31 PM	!!!!!    at Illumina.PollerUtils.PollerThread.PollThenProcess (System.Object cookie, System.Boolean& processedAJob, System.Boolean& bContinuePolling) <0x40fad920 + 0x003d3> in <filename unknown>:0 
+12/5/2018 7:30:31 PM	!!!!!    at System.Net.HttpWebRequest.EndGetRequestStream (IAsyncResult asyncResult) <0x40fcbf60 + 0x0013f> in <filename unknown>:0 
+12/5/2018 7:30:31 PM	!!!!!    at System.Net.HttpWebRequest.GetRequestStream () <0x40fc3c90 + 0x000f4> in <filename unknown>:0 
+12/5/2018 7:30:31 PM	!!!!!    at Illumina.PollerUtils.HTTPCommunication.SendCommand (System.String command, System.String& response, System.Boolean& sendPortionCompleted, System.Int32& status) <0x40f914b0 + 0x002e3> in <filename unknown>:0 
+12/5/2018 7:30:36 PM	!!!!!  EXCEPTION; type=System.Net.WebException
+12/5/2018 7:30:36 PM	!!!!!  Error generated from LIMS command "<linx action="save" clientType="AutoCall Poller" clientVersion="2.0.1.179" device="7af4599c2268" host="ilmnlims" password="poller_user" port="80" task="AutoCall" user="poller_user" workFlow="GGGT"/>"
+12/5/2018 7:30:36 PM	!!!!!  Error: NameResolutionFailure
+12/5/2018 7:30:36 PM	!!!!!    at Illumina.PollerUtils.HTTPCommunication.SendCommand (System.String command, System.String& response, System.Boolean& sendPortionCompleted, System.Int32& status) <0x40f914b0 + 0x0076f> in <filename unknown>:0 
+12/5/2018 7:30:36 PM	!!!!!    at Illumina.PollerUtils.PollerThread.PollThenProcess (System.Object cookie, System.Boolean& processedAJob, System.Boolean& bContinuePolling) <0x40fad920 + 0x003d3> in <filename unknown>:0 
+12/5/2018 7:30:36 PM	!!!!!    at System.Net.HttpWebRequest.EndGetRequestStream (IAsyncResult asyncResult) <0x40fcbf60 + 0x0013f> in <filename unknown>:0 
+12/5/2018 7:30:36 PM	!!!!!    at System.Net.HttpWebRequest.GetRequestStream () <0x40fc3c90 + 0x000f4> in <filename unknown>:0 
+12/5/2018 7:30:36 PM	!!!!!    at Illumina.PollerUtils.HTTPCommunication.SendCommand (System.String command, System.String& response, System.Boolean& sendPortionCompleted, System.Int32& status) <0x40f914b0 + 0x002e3> in <filename unknown>:0 
+12/5/2018 7:30:41 PM	!!!!!  EXCEPTION; type=System.Net.WebException
+12/5/2018 7:30:41 PM	!!!!!  Error generated from LIMS command "<linx action="save" clientType="AutoCall Poller" clientVersion="2.0.1.179" device="7af4599c2268" host="ilmnlims" password="poller_user" port="80" task="AutoCall" user="poller_user" workFlow="GGGT"/>"
+12/5/2018 7:30:41 PM	!!!!!  Error: NameResolutionFailure
+12/5/2018 7:30:41 PM	!!!!!    at Illumina.PollerUtils.HTTPCommunication.SendCommand (System.String command, System.String& response, System.Boolean& sendPortionCompleted, System.Int32& status) <0x40f914b0 + 0x0076f> in <filename unknown>:0 
+12/5/2018 7:30:41 PM	!!!!!    at Illumina.PollerUtils.PollerThread.PollThenProcess (System.Object cookie, System.Boolean& processedAJob, System.Boolean& bContinuePolling) <0x40fad920 + 0x003d3> in <filename unknown>:0 
+12/5/2018 7:30:41 PM	!!!!!    at System.Net.HttpWebRequest.EndGetRequestStream (IAsyncResult asyncResult) <0x40fcbf60 + 0x0013f> in <filename unknown>:0 
+12/5/2018 7:30:41 PM	!!!!!    at System.Net.HttpWebRequest.GetRequestStream () <0x40fc3c90 + 0x000f4> in <filename unknown>:0 
+12/5/2018 7:30:41 PM	!!!!!    at Illumina.PollerUtils.HTTPCommunication.SendCommand (System.String command, System.String& response, System.Boolean& sendPortionCompleted, System.Int32& status) <0x40f914b0 + 0x002e3> in <filename unknown>:0 
